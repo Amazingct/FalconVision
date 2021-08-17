@@ -1,3 +1,4 @@
+####FOR WINDOWS OS ONLY####
 1. Open DataCapture/WebcamCapture.py
 2. Edit the home variable to your project directory
 3. Edit the labels variable  to objects you want to detect, also edit objects variables to type of object to be detected
