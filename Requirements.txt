@@ -11,3 +11,4 @@ pycocotools
 gin-config
 gin
 tensorflow_addons
+PyQt5

@@ -38,7 +38,7 @@ for path in paths.values():
 
 if not os.path.exists(os.path.join(paths['APIMODEL_PATH'], 'research', 'object_detection')):
    os.system ('git clone https://github.com/tensorflow/models {}'.format(paths['APIMODEL_PATH']))
-'''
+
 # PROTOC and TensorFlow Object Detection Download
 url="https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protoc-3.15.6-win64.zip"
 
@@ -57,7 +57,7 @@ VERIFICATION_SCRIPT = os.path.join(paths['APIMODEL_PATH'], 'research', 'object_d
 # Verify Installation
 os.system ('pip install tensorflow && python {}'.format(VERIFICATION_SCRIPT))
 
-'''
+
 
 import object_detection
 wget.download(PRETRAINED_MODEL_URL)
