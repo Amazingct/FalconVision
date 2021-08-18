@@ -7,3 +7,4 @@
 6. Open Training/Train.py
 7. Edit home and labels variable and Run the program to Train your model
 6.Use StillImages.py and Webcam.py to test your model
+Use  the export.py to generate tensorflowjs, tflight files and zipped the model
